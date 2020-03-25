@@ -1,0 +1,104 @@
+:root {
+  --base: #99bbff;
+  --base2: #ffccd5;
+  --base3: #808080;
+}
+
+body {
+  background: #bfbfbf;
+}
+
+.controls {
+  margin-top: -200px;
+  margin-left: 100px;
+}
+
+.head {
+  background: white;
+  height: 50vh;
+  width: 50vh;
+  position: relative;
+  top: 35vh;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.ear {
+  position: absolute;
+  background: white;
+  height: 40vh;
+  width: 13vh;
+  top: -50%;
+  border-radius: 50%;
+  z-index: -2;
+  opacity: 1;
+}
+
+#left-ear {
+  left: 10vh;
+}
+
+#right-ear {
+  left: 25vh;
+}
+
+.inner-ear {
+  position: relative;
+  background: var(--base2);
+  height: 25vh;
+  width: 10vh;
+  top: 6vh;
+  left: 1.7vh;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.eye {
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  height: 6vh;
+  width: 6vh;
+  background: var(--base);
+  position: absolute;
+  top: 10vh;
+  opacity: 1;
+}
+
+#left-eye {
+  left: 14vh;
+}
+
+#right-eye {
+  left: 30vh;
+}
+
+.pupil {
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  height: 3vh;
+  width: 3vh;
+  background: black;
+  position: absolute;
+  top: 49.75%;
+  left: 1%;
+}
+
+.nose {
+  height: 3vh;
+  width: 3vh;
+  background: var(--base3);
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 47.5%;
+}
+
+.mouth {
+  height: 1vh;
+  width: 6vh;
+  background: #ffccd5;
+  position: absolute;
+  border-radius: 50%;
+  top: 70%;
+  left: 44%;
+}
